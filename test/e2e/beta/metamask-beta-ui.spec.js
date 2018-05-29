@@ -22,7 +22,7 @@ describe('MetaMask', function () {
   let tokenAddress
 
   const testSeedPhrase = 'phrase upgrade clock rough situate wedding elder clever doctor stamp excess tent'
-  const tinyDelayMs = 500
+  const tinyDelayMs = 1000
   const regularDelayMs = tinyDelayMs * 2
   const largeDelayMs = regularDelayMs * 2
   const waitingNewPageDelayMs = regularDelayMs * 30
